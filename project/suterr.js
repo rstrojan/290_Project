@@ -13,7 +13,7 @@ app.set('view engine', 'handlebars');
 app.set('port', 3469);
 
 app.get('/',function(req,res){
-  res.send('home');
+  res.render('home', context);
 });
 
 app.get('/suterr-returner',function(req,res){
