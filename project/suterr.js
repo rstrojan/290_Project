@@ -10,7 +10,7 @@ app.use(express.static(path.join('/nfs/stak/users/suterr/290_Project', '/public'
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-app.set('port', 34692);
+app.set('port', 3469);
 
 app.get('/',function(req,res){
   res.send('home');
