@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(express.static(path.join('/nfs/stak/users/suterr/290_Project', '/public'));
+//app.use(express.static(path.join('/nfs/stak/users/suterr/290_Project', '/public'));
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
