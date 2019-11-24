@@ -46,9 +46,10 @@
 	width: 400px;
 	float: left;
 	margin: auto;
+	align-items: center;
 }
 .cityText li{
-	margin: center;
+	text-align: center;
 	padding: 5px;
 	font-size: 16px;
 }
