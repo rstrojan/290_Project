@@ -47,7 +47,7 @@
 	height: 800px;
 	float: left;
 	display: flex;
-	align-items: stretch;
+	align-items: center;
 }
 .cityText ul{
 
