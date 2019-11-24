@@ -5,23 +5,24 @@ h1{
 #slideshow{
 	width:800px;
 	height:800px;
-	position:center;
+	position:relative;
+	margin: auto;
 }
 
 #slideshow ul{
 	width:800px;
 	height:800px;
 	list-style:none outside none;
-	position:center;
+	position:relative;
 	overflow:hidden;
 }
 
 #slideshow li:first-child{
 	display:list-item;
-	position:center;
+	position:absolute;
 }
 #slideshow li{
-	position:center:
+	position:absolute:
 	display:none;
 }
 #slideshow .prevButton{
@@ -43,7 +44,6 @@ h1{
 	background:url('/images/nextButton.png') no-repeat;
 	top:50%;
 	margin-top:-36px;
-	margin-left: 50px;
 	cursor:pointer;
 	z-index:2000;
 	right:0
