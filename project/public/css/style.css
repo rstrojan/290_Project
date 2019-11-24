@@ -47,6 +47,10 @@
 	float: left;
 	margin: auto;
 }
+.cityText li{
+	padding: 5px;
+	font-size: 16px;
+}
 
 #slideshow{
 	width:700px;
