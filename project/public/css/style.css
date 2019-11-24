@@ -2,9 +2,10 @@
 	text-align: center;
 	border-style:solid;
 	background-color:pink;
-	padding: 5px;
+	padding: px;
 	float: left;
-	font-size: 16px;
+	font-size: 20px;
+	text-decoration: none;
 	width: 23%;
 }
 .navbar{
