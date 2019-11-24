@@ -1,7 +1,7 @@
 .navbar a{
 	text-align: center;
-	border-style:solid;
-	background-color:pink;
+	color: white
+	background-color:grey;
 	padding: 15px;
 	float: left;
 	font-size: 20px;
@@ -17,6 +17,10 @@
 	font-family: Arial;
 }
 
+.mainTitle{
+	text-align: center;
+	
+}
 
 #slideshow{
 	width:800px;
@@ -65,3 +69,6 @@
 	right:0
 }
 
+body{
+	background:url('/image/paper.jpg') repeat;
+}
