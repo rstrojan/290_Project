@@ -45,7 +45,6 @@
 .cityText{
 	width: 400px;
 	float: left;
-	margin: auto;
 	align-items: center;
 }
 .cityText ul{
@@ -53,7 +52,6 @@
 }
 .cityText li{
 	float: none;
-	text-align: center;
 	padding: 5px;
 	font-size: 16px;
 }
