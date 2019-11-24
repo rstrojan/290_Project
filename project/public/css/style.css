@@ -33,6 +33,7 @@ h1{
 	margin-top:-36px;
 	cursor:pointer;
 	z-index:2000;
+	left:0
 }
 
 #slideshow .nextButton{
@@ -44,5 +45,6 @@ h1{
 	margin-top:-36px;
 	cursor:pointer;
 	z-index:2000;
+	right:0
 }
 
