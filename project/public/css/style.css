@@ -41,3 +41,17 @@ h1{
 	background-position:left bottom;
 	left:0;
 }
+#container .nextButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('/images/nextButton.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:right top;
+	right:0
+}
+
+#container .nextButton:hover{background-position:right bottom;right:0;}
