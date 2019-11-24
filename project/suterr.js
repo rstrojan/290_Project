@@ -15,6 +15,18 @@ app.get('/',function(req,res){
 	res.render('home');
 });
 
+app.get('/citypage', function(req,res){
+	res.rent('citypage');
+});
+
+app.get('/tickets', function(req,res){
+	res.rent('tickets');
+});
+
+app.get('/Find_out_more', function(req,res){
+	res.rent('Find_out_more');
+});
+
 app.get('/suterr-returner',function(req,res){
   var qParams = [];
   for (var p in req.query){
