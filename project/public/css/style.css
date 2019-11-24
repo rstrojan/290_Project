@@ -45,6 +45,7 @@
 .cityText{
 	width: 400px;
 	float: left;
+	display: flex;
 	align-items: center;
 }
 .cityText ul{
