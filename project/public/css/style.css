@@ -41,7 +41,7 @@ h1{
 	background-position:left bottom;
 	left:0;
 }
-#container .nextButton{
+#slideshow .nextButton{
 	height:72px;
 	width:68px;
 	position:absolute;
@@ -54,4 +54,4 @@ h1{
 	right:0
 }
 
-#container .nextButton:hover{background-position:right bottom;right:0;}
+#slideshow .nextButton:hover{background-position:right bottom;right:0;}
