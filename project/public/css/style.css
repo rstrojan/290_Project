@@ -30,6 +30,15 @@
 	text-align: center;
 }
 
+
+.cityPicture{
+	list-style:none outside none;
+	overflow: scroll;
+	float: right;
+	width: 850px;
+	padding: 0px 10px;
+}
+
 #slideshow{
 	width:700px;
 	height:700px;
