@@ -15,3 +15,12 @@ h1{
 	position:relative;
 	overflow:hidden;
 }
+
+#slideshow li:first-child{
+	display:list-item;
+	position:absolute;
+}
+#slideshow li{
+	position:absolute:
+	display:none;
+}
