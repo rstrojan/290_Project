@@ -1,10 +1,8 @@
-.navbutton{
+.navbar a{
 	text-align: center;
 	border-style:solid;
 	background-color:pink;
-	padding: 10px
-}
-.navbar a{
+	padding: 5px
 	float: left;
 	font-size: 16px;
 	width: 23%;
