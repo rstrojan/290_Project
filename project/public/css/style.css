@@ -6,7 +6,7 @@
 	float: left;
 	font-size: 20px;
 	text-decoration: none;
-	width: 22%;
+	width: 23%;
 }
 .navbar a:hover{
 	background-color: Cornsilk;
@@ -20,7 +20,11 @@
 .mainTitle{
 	margin: auto;
 	text-align: center;
-	
+}
+
+.subTitle{
+	margin: auto;
+	text-align: center;
 }
 
 #slideshow{
