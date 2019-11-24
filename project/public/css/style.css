@@ -24,7 +24,7 @@ h1{
 	position:absolute:
 	display:none;
 }
-#container .prevButton{
+#slideshow .prevButton{
 	height:175;
 	width:175px;
 	position:absolute;
@@ -37,7 +37,7 @@ h1{
 	left:0
 }
 
-#container .prevButton:hover{ 
+#slideshow .prevButton:hover{ 
 	background-position:left bottom;
 	left:0;
 }
