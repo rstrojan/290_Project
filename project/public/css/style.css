@@ -24,15 +24,15 @@
 }
 
 #slideshow{
-	width:800px;
-	height:800px;
+	width:700px;
+	height:700px;
 	position:center;
 	margin: auto;
 }
 
 #slideshow ul{
-	width:800px;
-	height:800px;
+	width:700px;
+	height:700px;
 	list-style:none outside none;
 	position:relative;
 	overflow:hidden;
