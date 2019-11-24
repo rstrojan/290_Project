@@ -43,11 +43,11 @@
 	list-style: none;
 }
 .cityText{
-	width: 400px;
+	width: 850px;
 	height: 800px;
 	float: left;
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 }
 .cityText ul{
 
