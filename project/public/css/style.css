@@ -18,10 +18,10 @@ h1{
 
 #slideshow li:first-child{
 	display:list-item;
-	position:absolute;
+	position:center;
 }
 #slideshow li{
-	position:absolute:
+	position:center:
 	display:none;
 }
 #slideshow .prevButton{
