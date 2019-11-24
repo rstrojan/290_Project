@@ -24,3 +24,20 @@ h1{
 	position:absolute:
 	display:none;
 }
+#container .prevButton{
+	height:175;
+	width:175px;
+	position:absolute;
+	background:url('/images/backButton.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:left top;
+	left:0
+}
+
+#container .prevButton:hover{ 
+	background-position:left bottom;
+	left:0;
+}
