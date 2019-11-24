@@ -42,8 +42,8 @@ h1{
 	left:0;
 }
 #slideshow .nextButton{
-	height:72px;
-	width:68px;
+	height:175px;
+	width:175px;
 	position:absolute;
 	background:url('/images/nextButton.png') no-repeat;
 	top:50%;
@@ -54,4 +54,3 @@ h1{
 	right:0
 }
 
-#slideshow .nextButton:hover{background-position:right bottom;right:0;}
