@@ -1,6 +1,17 @@
 h1{
 	font-size: 175
 }
-#container{
-	
+
+#slideshow{
+	width:800px;
+	height:800px;
+	position:relative;
+}
+
+#slideshow ul{
+	width:800px;
+	height:800px;
+	list-style:none outside none;
+	position:relative;
+	overflow:hidden;
 }
