@@ -5,7 +5,7 @@ h1{
 #slideshow{
 	width:800px;
 	height:800px;
-	position:relative;
+	position:center;
 }
 
 #slideshow ul{
