@@ -28,7 +28,7 @@ h1{
 	height:175;
 	width:175px;
 	position:absolute;
-	background: lightblue;
+	background: url<'/images/prevButton.png') no-repeat;
 	top:50%;
 	margin-top:-36px;
 	cursor:pointer;
@@ -37,10 +37,6 @@ h1{
 	left:0
 }
 
-#slideshow .prevButton:hover{ 
-	background-position:left bottom;
-	left:0;
-}
 #slideshow .nextButton{
 	height:175px;
 	width:175px;
