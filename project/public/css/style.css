@@ -39,6 +39,9 @@
 	height: 850px;
 	padding: 0px 10px;
 }
+.cityPictures ul{
+	list-style: none;
+}
 
 #slideshow{
 	width:700px;
