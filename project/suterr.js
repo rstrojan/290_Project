@@ -16,15 +16,15 @@ app.get('/',function(req,res){
 });
 
 app.get('/citypage', function(req,res){
-	res.rent('citypage');
+	res.render('citypage');
 });
 
 app.get('/tickets', function(req,res){
-	res.rent('tickets');
+	res.render('tickets');
 });
 
 app.get('/Find_out_more', function(req,res){
-	res.rent('Find_out_more');
+	res.render('Find_out_more');
 });
 
 app.get('/suterr-returner',function(req,res){
