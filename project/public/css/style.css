@@ -25,8 +25,8 @@ h1{
 	display:none;
 }
 #slideshow .prevButton{
-	height:175;
-	width:175px;
+	height:100px;
+	width:100px;
 	position:absolute;
 	background: url('/images/prevButton.png') no-repeat;
 	top:50%;
@@ -38,8 +38,8 @@ h1{
 }
 
 #slideshow .nextButton{
-	height:175px;
-	width:175px;
+	height:100px;
+	width:100px;
 	position:absolute;
 	background:url('/images/nextButton.png') no-repeat;
 	top:50%;
