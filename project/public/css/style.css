@@ -42,6 +42,10 @@
 .cityPictures ul{
 	list-style: none;
 }
+.cityText{
+	float: left;
+	margin: auto;
+}
 
 #slideshow{
 	width:700px;
