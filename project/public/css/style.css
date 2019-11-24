@@ -1,6 +1,8 @@
 .navbutton{
+	text-align: center;
 	border-style:solid;
 	background-color:pink;
+	padding: 10px
 }
 .navbar a{
 	float: left;
