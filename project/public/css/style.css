@@ -28,7 +28,7 @@ h1{
 	height:175;
 	width:175px;
 	position:absolute;
-	background:url('../images/backButton.png') no-repeat;
+	background: blue;
 	top:50%;
 	margin-top:-36px;
 	cursor:pointer;
