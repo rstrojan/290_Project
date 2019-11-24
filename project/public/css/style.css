@@ -1,7 +1,7 @@
 .navbar a{
 	text-align: center;
-	color: white
-	background-color:grey;
+	color: white;
+	background-color: navajowhite;
 	padding: 15px;
 	float: left;
 	font-size: 20px;
@@ -9,7 +9,7 @@
 	width: 22%;
 }
 .navbar a:hover{
-	background-color: green;
+	background-color: cornsilk;
 }
 
 .navbar{
