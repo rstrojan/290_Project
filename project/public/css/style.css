@@ -34,16 +34,10 @@
 	width: 50%;
 	float: left;
 	border-radius: 3px;
+	font-size: 25px;
 }
-.ticketInput input{
-	float: right;
-	margin: 0;
-	left: 50%;
-}
-.ticketInput label{
-	float: right;
-	margin: 0;
-	left: 50%;
+.ticketInput{
+	padding:10px;
 }
 .cityPictures{
 	list-style:none outside none;
