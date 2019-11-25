@@ -29,10 +29,15 @@ app.get('/Find_out_more', function(req,res){
 
 app.get('/ticket_print',function(req,res){
   var qParams = [];
+ context.city_input = '';
   for (var p in req.query){
-    qParams.push({'name':p,'value':req.query[p]})
+	if(p == 'city_input'){context.city_input req.query[p]};
+    qParams.push({'name':p,'value':req.query[p]});
   }
   varqParams2= [];
+    for (var p in req.query){
+    qParams2.push(p:req.query[p])
+  }
   var context = {};
   context.callType = 'GET';
   context.dataList = qParams;
