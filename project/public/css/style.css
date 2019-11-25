@@ -37,14 +37,16 @@
 	font-size: 20px;
 }
 .tickets{
+	list-style:none;
 background-color: white;
 }
 .ticketInput{
 	padding:10px;
 }
 #barcode{
-	height: 50px;
-	width: 100px;
+	padding: 10px 30px;
+	height: 75px;
+	width: 150px;
 }
 
 .cityPictures{
