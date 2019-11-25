@@ -27,7 +27,7 @@ app.get('/Find_out_more', function(req,res){
 	res.render('Find_out_more');
 });
 
-app.get('/suterr-returner',function(req,res){
+app.get('/ticket_print',function(req,res){
   var qParams = [];
   for (var p in req.query){
     qParams.push({'name':p,'value':req.query[p]})
@@ -35,11 +35,11 @@ app.get('/suterr-returner',function(req,res){
   var context = {};
   context.callType = 'GET';
   context.dataList = qParams;
-  res.render('suterr-returner', context);
+  res.render('ticket_print', context);
 });
 
 
-app.post('/suterr-returner', function(req,res){
+app.post('/ticket_print', function(req,res){
   var qParams = [];
   for (var p in req.body){
     qParams.push({'name':p,'value':req.body[p]})
@@ -49,7 +49,7 @@ app.post('/suterr-returner', function(req,res){
   var context = {};
   context.callType = 'POST';
   context.dataList = qParams;
-  res.render('suterr-returner', context);
+  res.render('ticket_print', context);
 });
 
 app.use(function(req,res){

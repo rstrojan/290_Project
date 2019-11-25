@@ -1,6 +1,4 @@
 <h1 class="mainTitle">Book your tickets to Kholinar today!</h1>
-<script src="html2pdf.bundle.min.js"></script>
-
 
 <fieldset class="ticketForm">
 <legend>Enter your ticket information here!</legend>
@@ -31,22 +29,61 @@
 		
 </fieldset>
 
-<fieldset class="tickets">
-	<legend>Departure Tickets</legend>
-	<ul = class="departResult">
-		<li><span>From: </span><span id="city_input"></span></li>
-		<li><span>To: </span><span>Kholinar</span></li>
-		<li><span>Departure: </span><span id="departure"></span></li>
-		<li><span>Number of seats: </span><span id="travelerNum"></span></li>
-		<li><img id="barcode" src="/images/barcode.jpg" /></li>
-	</ul>
-		<legend>Return Tickets</legend>
-	<ul = class="returnResult">
-		<li><span>From: </span><span>Kholinar</span></li>
-		<li><span>To: </span><span id="city_input"></span></li>
-		<li><span>Departure: </span><span id="departure"></span></li>
-		<li><span>Number of seats: </span><span id="travelerNum"></span></li>
-		<li><img id="barcode" src="/images/barcode.jpg" /></li>
-	</ul>
-</fieldset>
-
+<script>
+function bindButtons(){	
+	document.getElementById('ticketSubmit').addEventListener('click', function(event){getStuff();});
+	}
+	function getStuff(x){
+	var urlstring = "http://flip3.engr.oregonstate.edu:3469/ticket_print?";
+	urlstring = urlstring + "destination=" + getElementById("destination").value + "&";
+	urlstring = urlstring + "departue=" + getElementById("departue").value + "&";
+	urlstring = urlstring + "city_input=" + getElementById("city_input").value + "&";
+	urlstring = urlstring + "return=" + getElementById("return").value + "&";
+	urlstring = urlstring + "travelerNum=" + getElementById("travelerNum").value + "&";
+	location.href = ursltring;
+	
+	event.preventDefault();
+	}
+	/*
+	function getStuff(x){
+	//debugger;
+	console.log(document.getElementById(x).value);
+	var param = "";
+	var ele = document.getElementById(x);
+	if(ele.name == "zip_input") { param = "zip=" + ele.value;}
+	else {param = "q=" + ele.value.replace(" ", "") + ",us";}
+	console.log(param);
+	
+	var req = new XMLHttpRequest();
+    req.open("GET", "http://flip3.engr.oregonstate.edu:3469/ticket_print" + param + "&units=imperial&appid=" + apiKey, false);
+    req.send(null);
+    console.log(JSON.parse(req.responseText));
+	var response = JSON.parse(req.responseText);
+	console.log(document.getElementById("test").innerText);
+	console.log(response.main.temp);
+	document.getElementById("cityResult").innerText = response.name;
+	document.getElementById("tempResult").innerText = response.main.temp;
+	
+	event.preventDefault();
+	}
+	
+	function postStuff(){
+	//debugger;
+    var req = new XMLHttpRequest();
+    var payload = {anything:null};
+    payload.anything = document.getElementById('ticketSubmit').value;
+    req.open('POST', "http://flip3.engr.oregonstate.edu:3469/ticket_print", true);
+    req.setRequestHeader('Content-Type', 'application/json');
+    req.addEventListener('load',function(){
+      if(req.status >= 200 && req.status < 400){
+        var response = JSON.parse(req.responseText);
+        document.getElementById('postResult').textContent = response.data;
+        //document.getElementById('shortUrl').textContent = response.id;
+      } else {
+        console.log("Error in network request: " + req.statusText);
+      }});
+    req.send(JSON.stringify(payload));
+    event.preventDefault();
+	}
+	*/
+</script>
