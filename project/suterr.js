@@ -39,7 +39,7 @@ app.get('/ticket_print',function(req,res){
   var context = {};
   context.callType = 'GET';
   context.dataList = qParams;
-  context.dataList
+  context.dataList2 = qParams2;
   res.render('ticket_print', context);
 });
 
