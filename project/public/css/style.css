@@ -39,6 +39,11 @@
 .ticketInput{
 	padding:10px;
 }
+#barcode{
+	height: 50%;
+	width: 50%;
+}
+
 .cityPictures{
 	list-style:none outside none;
 	overflow: scroll;
