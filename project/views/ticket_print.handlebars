@@ -3,7 +3,7 @@
 	{{#with dataList2}}
 	<ul = class="departResult">
 		
-		<li><span>From: </span><span id="city_input">{{this.city_input.value}}</span></li>
+		<li><span>From: </span><span id="city_input">{{city_input}}</span></li>
 		<li><span>To: </span><span>Kholinar</span></li>
 		<li><span>Departure: </span><span id="departure">{{departure}}</span></li>
 		<li><span>Number of seats: </span><span id="travelerNum">{{this.travelerNum}}</span></li>
@@ -26,6 +26,6 @@
     <li>{{this.name}}: {{this.value}}
 	<script>
 	if({{this.name}} == 'city_input'){console.log(this.value)};
-</script>
+	</script>
   {{/each}}
 </ul>
