@@ -31,7 +31,13 @@
 		<label>Depart from:</label>
 			<script>
 				var string= "<div>HelloWorld</div>";
-				var doc = html(string);
+				var doc = new jsPDF();   
+
+				doc.html(document.body, {
+				   callback: function (doc) {
+					 doc.save();
+				   }
+				});
 			</script>
 	</div>
 </fieldset>
