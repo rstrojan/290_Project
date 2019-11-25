@@ -30,7 +30,7 @@ app.get('/Find_out_more', function(req,res){
 app.get('/ticket_print',function(req,res){
   var qParams = [];
   for (var p in req.query){
-    qParams.push({p: req.query[p]})
+    qParams.push({'name':p, 'value':req.query[p]})
   }
   var context = {};
   context.callType = 'GET';
