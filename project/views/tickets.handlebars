@@ -1,11 +1,16 @@
-<h1 class="mainTitle">Book your tickets to Roshar today!</h1>
+<h1 class="mainTitle">Book your tickets to Kholinar today!</h1>
 
-<div class="ticketForm">
+<div class="cityText">
 <legend>Enter your ticket information here!</legend>
 	<div class="input">
 		<label>Departing from:</label>
 			<input type="text" name="city_input" id="city_input" size="30" maxlength="30">
 		</br>
+		<label>Destination:**</label>
+			<input list="destination" name="destination" id="destintation">
+				<datalist id="destination">
+					<option value="Kholinar">
+				</datalist>
 		<label>Departure date:</label>
 			<input type="datetime-local" name="departue" id="departure" value="2019-11-24T12:00" size="20">
 		</br>
@@ -14,6 +19,8 @@
 		</br>
 		<label>Number of travelers:</label>
 			<input type="number" name="travelerNum"	id="travelerNum" value="1" min="1">
+		</br>
+		<div>**Due to the current Desolation occuring on the planet, we are only offerening tickets to Kholinar.</div>
 	</div>
 </div>
 
