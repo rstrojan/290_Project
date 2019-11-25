@@ -1,12 +1,8 @@
 <fieldset class="tickets">
 	<legend>Departure Tickets</legend>
+	{{#with dataList2}}
 	<ul = class="departResult">
-		{{#with dataList2}}
-		{{city_input}}
-		{{/with}}
-		{{#with dataList}}
-		{{this.name1}}
-		{{/with}}
+		
 		<li><span>From: </span><span id="city_input">{{this.city_input.value}}</span></li>
 		<li><span>To: </span><span>Kholinar</span></li>
 		<li><span>Departure: </span><span id="departure">{{departure}}</span></li>
@@ -21,6 +17,7 @@
 		<li><span>Number of seats: </span><span id="travelerNum">{{this.travelerNum}}</span></li>
 		<li><img id="barcode" src="/images/barcode.jpg" /></li>
 	</ul>
+	{{#with dataList2}}
 </fieldset>
 
 
