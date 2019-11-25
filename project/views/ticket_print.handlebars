@@ -1,7 +1,9 @@
 <fieldset class="tickets">
 	<legend>Departure Tickets</legend>
 	<ul = class="departResult">
-		
+		{{#with dataList}}
+		{{city_input}}
+		{{/with}}
 		<li><span>From: </span><span id="city_input">{{city_input}}</span></li>
 		<li><span>To: </span><span>Kholinar</span></li>
 		<li><span>Departure: </span><span id="departure">{{departure}}</span></li>
@@ -20,7 +22,6 @@
 
 
 <ul>
-	{{distaList.city_input}}
   {{#each dataList}}
     <li>{{this.name}}: {{this.value}}
 	<script>
