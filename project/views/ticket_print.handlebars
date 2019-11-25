@@ -4,6 +4,9 @@
 		{{#with dataList2}}
 		{{city_input}}
 		{{/with}}
+		{{#with dataList}}
+		{{this.name1}}
+		{{/with}}
 		<li><span>From: </span><span id="city_input">{{this.city_input.value}}</span></li>
 		<li><span>To: </span><span>Kholinar</span></li>
 		<li><span>Departure: </span><span id="departure">{{departure}}</span></li>
