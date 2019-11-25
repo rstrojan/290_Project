@@ -31,14 +31,15 @@
 }
 
 .ticketForm{
-	width: 800px;
+	width: 50%;
 	float: left;
 	border-radius: 3px;
 }
 .ticketInput label{
-	float: none;
-	margin-left: auto;
-	margin-right: auto;
+	float: right;
+	margin: 0;
+	top: 50%;
+	top: 50%;
 }
 .cityPictures{
 	list-style:none outside none;
