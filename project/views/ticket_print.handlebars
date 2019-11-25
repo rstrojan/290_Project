@@ -22,7 +22,7 @@
 
 
 <ul>
-  {{#each dataList}}
+  {{#with dataList}}
     <li>{{this.name}}: {{this.value}}
-  {{/each}}
+  {{/with}}
 </ul>
