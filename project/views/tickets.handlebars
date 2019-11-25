@@ -39,12 +39,12 @@ function bindButtons(){
 	}
 	function getStuff(x){
 	debugger;
-	var urlstring = "http://flip3.engr.oregonstate.edu:3469/ticket_print?";
-	urlstring = urlstring + "destination=" + getElementById("destination").value + "&";
-	urlstring = urlstring + "departue=" + getElementById("departue").value + "&";
-	urlstring = urlstring + "city_input=" + getElementById("city_input").value + "&";
-	urlstring = urlstring + "return=" + getElementById("return").value + "&";
-	urlstring = urlstring + "travelerNum=" + getElementById("travelerNum").value;
+	var urlstring = "http://flip3.engr.oregonstate.edu:3469/ticket_print?" + 
+	"destination=" + getElementById("destination").value + "&"
+	"departue=" + getElementById("departue").value + "&"
+	"city_input=" + getElementById("city_input").value + "&"
+	"return=" + getElementById("return").value + "&"
+	"travelerNum=" + getElementById("travelerNum").value;
 	window.location = ursltring;
 	
 	event.preventDefault();
