@@ -1,5 +1,6 @@
 <h1 class="mainTitle">Book your tickets to Kholinar today!</h1>
 
+<form action="http://flip3.engr.oregonstate.edu:3469/ticket_print" method="get">
 <fieldset class="ticketForm">
 <legend>Enter your ticket information here!</legend>
 	<div class="ticketInput">
@@ -28,19 +29,18 @@
 	
 		
 </fieldset>
+<form>
 
 <script>
-debugger;
-document.addEventListener('DOMContentLoaded',bindButtons);
+//document.addEventListener('DOMContentLoaded',bindButtons);
 
 function bindButtons(){	
-	debugger;
 	document.getElementById('ticketSubmit').addEventListener('click', function(event){getStuff();});
 	}
 	function getStuff(x){
 	debugger;
 	var urlstring = "http://flip3.engr.oregonstate.edu:3469/ticket_print?" + 
-	"destination=" + document.getElementById('destination').key + "&"
+	"destination=" + document.getElementById('destination').value + "&"
 	"departue=" + document.getElementById('departue').value + "&"
 	"city_input=" + document.getElementById('city_input').value + "&"
 	"return=" + document.getElementById('return').value + "&"
