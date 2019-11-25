@@ -37,9 +37,11 @@
 	font-size: 20px;
 }
 .tickets{
+	float: right;
 	background-color: white;
 }
 .tickets ul{
+	border: 2px;
 	list-style:none;
 }
 .ticketInput{
