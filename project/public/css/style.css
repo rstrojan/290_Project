@@ -37,8 +37,8 @@
 	font-size: 20px;
 }
 .tickets{
-	margin: 0;
-	left:30%;
+	overflow: scroll;
+	left: 50px;
 	float: right;
 	background-color: white;
 }
