@@ -38,7 +38,7 @@
 }
 .tickets{
 	overflow: scroll;
-	left: 50px;
+	left: 100px;
 	float: right;
 	background-color: white;
 }
