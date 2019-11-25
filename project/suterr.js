@@ -32,9 +32,14 @@ app.get('/ticket_print',function(req,res){
   for (var p in req.query){
     qParams.push({'name':p,'value':req.query[p]})
   }
+  varqParams2= [];
+  for (var p in req.query){
+	  qParams2.push(p:req.query[p],)
+  }
   var context = {};
   context.callType = 'GET';
   context.dataList = qParams;
+  context.dataList
   res.render('ticket_print', context);
 });
 
