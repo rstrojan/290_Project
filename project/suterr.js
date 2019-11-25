@@ -29,12 +29,8 @@ app.get('/Find_out_more', function(req,res){
 
 app.get('/ticket_print',function(req,res){
   var qParams = [];
-  for (var p in req.body){
-    qParams.push(p: req.body[p])
-  }
-  varqParams2= [];
-    for (var p in req.query){
-    qParams2.push(p: req.query[p])
+  for (var p in req.query){
+    qParams.push({p: req.query[p]})
   }
   var context = {};
   context.callType = 'GET';
