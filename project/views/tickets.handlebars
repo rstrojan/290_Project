@@ -28,14 +28,25 @@
 		<input type="submit" value ="Submit" id="ticketSubmit">
 	</div>
 	
-	<div class="ticket">
-		<label>Depart from:</label>
-			<script>
-				var element = document.getElementById('destination');
-				html2pdf(element);
-			</script>
-	</div>
+		
 </fieldset>
 
-
+<fieldset class="tickets">
+	<legend>Departure Tickets</legend>
+	<ul = class="departResult">
+		<li><span>From: </span><span id="city_input"></span></li>
+		<li><span>To: </span><span>Kholinar</span></li>
+		<li><span>Departure: </span><span id="departure"></span></li>
+		<li><span>Number of seats: </span><span id="travelerNum"></span></li>
+		<li><img id="barcode" src="/images/barcode.jpg" /></li>
+	</ul>
+		<legend>Return Tickets</legend>
+	<ul = class="returnResult">
+		<li><span>From: </span><span>Kholinar</span></li>
+		<li><span>To: </span><span id="city_input"></span></li>
+		<li><span>Departure: </span><span id="departure"></span></li>
+		<li><span>Number of seats: </span><span id="travelerNum"></span></li>
+		<li><img id="barcode" src="/images/barcode.jpg" /></li>
+	</ul>
+</fieldset>
 
