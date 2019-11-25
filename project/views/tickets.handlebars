@@ -40,11 +40,11 @@ function bindButtons(){
 	function getStuff(x){
 	debugger;
 	var urlstring = "http://flip3.engr.oregonstate.edu:3469/ticket_print?" + 
-	"destination=" + getElementById("destination").value + "&"
-	"departue=" + getElementById("departue").value + "&"
-	"city_input=" + getElementById("city_input").value + "&"
-	"return=" + getElementById("return").value + "&"
-	"travelerNum=" + getElementById("travelerNum").value;
+	"destination=" + document.getElementById('destination').value + "&"
+	"departue=" + document.getElementById('departue').value + "&"
+	"city_input=" + document.getElementById('city_input').value + "&"
+	"return=" + document.getElementById('return').value + "&"
+	"travelerNum=" + document.getElementById('travelerNum').value;
 	window.location = ursltring;
 	
 	event.preventDefault();
