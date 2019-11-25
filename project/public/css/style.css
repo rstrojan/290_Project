@@ -35,7 +35,12 @@
 	float: left;
 	border-radius: 3px;
 }
-.ticketInput label, input{
+.ticketInput input{
+	float: right;
+	margin: 0;
+	left: 50%;
+}
+.ticketInput label{
 	float: right;
 	margin: 0;
 	left: 50%;
