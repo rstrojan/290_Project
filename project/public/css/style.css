@@ -30,6 +30,12 @@
 	text-align: center;
 }
 
+.ticketForm{
+	width: 800px;
+	float: left;
+	display: flex;
+	align-items: right;
+}
 
 .cityPictures{
 	list-style:none outside none;
