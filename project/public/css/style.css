@@ -35,8 +35,12 @@
 	float: left;
 	display: flex;
 	align-items: right;
+	border-radius: 3px;
 }
-
+.ticketForm .ticketInput{
+	margin-left: auto;
+	margin-right: auto;
+}
 .cityPictures{
 	list-style:none outside none;
 	overflow: scroll;
