@@ -37,8 +37,10 @@
 	font-size: 20px;
 }
 .tickets{
+	background-color: white;
+}
+.tickets ul{
 	list-style:none;
-background-color: white;
 }
 .ticketInput{
 	padding:10px;
