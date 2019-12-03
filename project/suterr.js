@@ -29,11 +29,11 @@ app.get('/Find_out_more', function(req,res){
 
 app.get('/ticket_print',function(req,res){
   var qParams = [];
-  context.watchthis = req.query.Destination;
   for (var p in req.query){
     qParams.push({'name':p,'value':req.query[p]})
   }
   var context = {};
+  context.watchthis = req.query.Destination;
   context.callType = 'GET';
   context.dataList = qParams;
   res.render('ticket_print', context);
