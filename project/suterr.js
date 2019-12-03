@@ -34,7 +34,7 @@ app.get('/ticket_print',function(req,res){
   }
   var context = {};
   var test = "Departure City"
-  context.watchthis = req.query.test;
+  context.watchthis = req.query[Departure City];
   context.callType = 'GETa';
   console.log(req.query.Destination);
   context.dataList = qParams;
