@@ -34,7 +34,8 @@ app.get('/ticket_print',function(req,res){
   }
   var context = {};
   context.watchthis = req.query.Destination;
-  context.callType = 'GET';
+  context.callType = 'GETa';
+  console.log(req.query.Destination);
   context.dataList = qParams;
   res.render('ticket_print', context);
 });
