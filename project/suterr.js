@@ -33,7 +33,7 @@ app.get('/ticket_print',function(req,res){
     qParams.push({'name':p,'value':req.query[p]})
   }
   var context = {};
-  context.watchthis = req.query.Destination;
+  context.watchthis = req.query.Departure+City;
   context.callType = 'GETa';
   console.log(req.query.Destination);
   context.dataList = qParams;
