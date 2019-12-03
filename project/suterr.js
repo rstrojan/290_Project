@@ -1,5 +1,5 @@
 var express = require('express');
-var sesssion = require('express-session');
+var session = require('express-session');
 
 var app = express();
 var handlebars = require('express-handlebars').create({defaultLayout:'main'});
